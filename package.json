@@ -1,0 +1,32 @@
+{
+  "name": "apollo-server-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.26.0",
+    "apollo-server": "^2.25.2",
+    "class-validator": "^0.13.1",
+    "graphql-fields": "^2.0.3",
+    "graphql-type-json": "^0.3.2",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@okgrow/graphql-scalars": "^0.4.6",
+    "@types/graphql-fields": "^1.3.3",
+    "@types/node": "^15.12.5",
+    "@types/ws": "^7.4.5",
+    "prisma": "^2.26.0",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.7",
+    "typegraphql-prisma": "^0.14.5",
+    "typescript": "^4.3.5"
+  }
+}
